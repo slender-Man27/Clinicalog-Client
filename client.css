@@ -14,7 +14,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #d9737a;
+    background: linear-gradient(to bottom, #DB6079, #DA6F65, #E29AB4);
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,6 @@ header {
     width: 100px;
     height: 30px;
     margin-top: 10px;
-    border: none;
     border-radius: 4px;
 }
 /* Profile and Picture */
@@ -146,7 +145,7 @@ header {
 
 .appointment-form {
     display: flex;
-    justify-content: space-around; /* Space between form and calendar */
+    justify-content: space-around; 
     align-items: flex-start;
     margin-top: 2rem;
 }
@@ -154,8 +153,8 @@ header {
 .form-group {
     background-color: white;
     padding: 2rem;
-    border-radius: 15px; /* Increase border radius */
-    width: 40%; /* Make it slightly smaller */
+    border-radius: 15px;
+    width: 40%; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
 }
@@ -174,8 +173,8 @@ input[type="text"] {
     width: 100%;
     padding: 0.6rem;
     margin-bottom: 1.5rem;
-    border: 1px solid #f48fb1; /* Light pink border */
-    border-radius: 8px; /* More rounded corners */
+    border: 1px solid #000000;
+    border-radius: 8px; 
     font-size: 14px;
     color: #333;
     background-color: white;
@@ -183,30 +182,17 @@ input[type="text"] {
 .form-group p {
     font-weight: bold;
     font-size: 1rem;
-    margin-bottom: 0.5rem; /* Space between label and input */
+    margin-bottom: 0.5rem; 
     color: #333;
-    text-align: left; /* Align text to the left */
-    margin-top: 1.5rem; /* Add spacing between inputs */
-}
-
-/* Ensure the form looks clean with inputs */
-input[type="date"],
-input[type="text"] {
-    width: 100%;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    border: 1px solid #f48fb1; /* Light pink border */
-    border-radius: 8px;
-    font-size: 14px;
-    color: #333;
-    background-color: white;
+    text-align: left; 
+    margin-top: 1.5rem;
 }
 
 .buttons {
     display: flex;
     justify-content: right;
     margin-top: 5rem;
-    gap: 2rem; /* Add space between buttons */
+    gap: 2rem; 
 }
 
 .save-button,
@@ -215,16 +201,16 @@ input[type="text"] {
     border: none;
     cursor: pointer;
     font-size: 14px;
-    border-radius: 10px; /* Fully rounded buttons */
+    border-radius: 10px; 
 }
 
 .save-button {
-    background-color: #f48fb1; /* Light pink */
+    background: linear-gradient(to right, #DB6079, #DA6F65, #E29AB4);
     color: white;
 }
 
 .cancel-button {
-    background-color: #f8bbd0; /* Light rose */
+    background: linear-gradient(to right, #DB6079, #DA6F65, #E29AB4);
     color: white;
 }
 
